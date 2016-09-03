@@ -4,7 +4,7 @@ You can search build numbers of Exchange Server.
 
 ## Usage
 
-1. Download [Get-ExchangeBuildNumber.ps1](/Get-ExchangeBuildNumber.ps1) and save on your computer.
+1. Download [Get-ExchangeBuildNumber.ps1](https://cdn.rawgit.com/Microsoft/Get-ExchangeBuildNumber/master/Get-ExchangeBuildNumber.ps1) and save on your computer.
 2. Start PowerShell and go to the folder where you saved the file.
 3. Run the following command and load the Get-ExchangeBuildNumber Cmdlet.
 
