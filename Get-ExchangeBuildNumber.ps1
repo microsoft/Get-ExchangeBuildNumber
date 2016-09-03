@@ -33,12 +33,12 @@
 		        Update-ExchangeBuildNumberDefinition
 	        }
 
-            Set-Variable -Name Builds -Value:(Load-ExchangeBuildNumberDefinition -FileName $FileName) -Scope 1
+            Set-Variable -Name Builds -Value:(Import-ExchangeBuildNumberDefinition -FileName $FileName) -Scope 1
 
-            if ((Check-ExchangeBuildNumberDefinition $Builds) -eq $false)
+            if ((Test-ExchangeBuildNumberDefinition $Builds) -eq $false)
             {
                 Write-Verbose (CreateLogString "Definition file was updated. Reloading definition file.")
-                Set-Variable -Name Builds -Value:(Load-ExchangeBuildNumberDefinition -FileName $FileName) -Scope 1
+                Set-Variable -Name Builds -Value:(Import-ExchangeBuildNumberDefinition -FileName $FileName) -Scope 1
             }
 
             Set-Variable -Name SetupDone -Value $true -Scope 1
@@ -109,12 +109,12 @@ function Get-ExchangeProductName
 		        Update-ExchangeBuildNumberDefinition
 	        }
 
-            Set-Variable -Name Builds -Value:(Load-ExchangeBuildNumberDefinition -FileName $FileName) -Scope 1
+            Set-Variable -Name Builds -Value:(Import-ExchangeBuildNumberDefinition -FileName $FileName) -Scope 1
 
-            if ((Check-ExchangeBuildNumberDefinition $Builds) -eq $false)
+            if ((Test-ExchangeBuildNumberDefinition $Builds) -eq $false)
             {
                 Write-Verbose (CreateLogString "Definition file was updated. Reloading definition file.")
-                Set-Variable -Name Builds -Value:(Load-ExchangeBuildNumberDefinition -FileName $FileName) -Scope 1
+                Set-Variable -Name Builds -Value:(Import-ExchangeBuildNumberDefinition -FileName $FileName) -Scope 1
             }
 
             Set-Variable -Name SetupDone -Value $true -Scope 1
@@ -169,7 +169,7 @@ function Get-ExchangeProductName
     End {}
 }
 
-function Load-ExchangeBuildNumberDefinition
+function Import-ExchangeBuildNumberDefinition
 {
     [CmdletBinding()]
     param
@@ -188,7 +188,7 @@ function Load-ExchangeBuildNumberDefinition
                 [string]$Message
             )
 
-            return (Get-Date).ToUniversalTime().ToString("[HH:mm:ss.fff") + " GMT] Load-ExchangeBuildNumberDefinition : " + $Message
+            return (Get-Date).ToUniversalTime().ToString("[HH:mm:ss.fff") + " GMT] Import-ExchangeBuildNumberDefinition : " + $Message
         }
     }
 
@@ -235,7 +235,7 @@ function Update-ExchangeBuildNumberDefinition
 	
 	    $FileName = $Dest + "`\ExchangeBuildNumbers.csv"
         Write-Verbose (CreateLogString "Downloading the definition file.")
-        Invoke-WebRequest -Uri "https://github.com/Microsoft/Get-ExchangeBuildNumber/blob/master/ExchangeBuildNumbers.csv" -OutFile $FileName
+        Invoke-WebRequest -Uri "https://cdn.rawgit.com/Microsoft/Get-ExchangeBuildNumber/master/ExchangeBuildNumbers.csv" -OutFile $FileName
     }
 
     End
@@ -243,7 +243,7 @@ function Update-ExchangeBuildNumberDefinition
 }
 
 # Return $false if the definition file was updatedd.
-function Check-ExchangeBuildNumberDefinition
+function Test-ExchangeBuildNumberDefinition
 {
     [CmdletBinding()]
     param
@@ -262,7 +262,7 @@ function Check-ExchangeBuildNumberDefinition
                 [string]$Message
             )
 
-            return (Get-Date).ToUniversalTime().ToString("[HH:mm:ss.fff") + " GMT] Check-ExchangeBuildNumberDefinition : " + $Message
+            return (Get-Date).ToUniversalTime().ToString("[HH:mm:ss.fff") + " GMT] Test-ExchangeBuildNumberDefinition : " + $Message
         }
     }
 
