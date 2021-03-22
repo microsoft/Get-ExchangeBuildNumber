@@ -54,7 +54,7 @@ function Get-ExchangeBuildNumber {
 
         foreach ($Build in $Builds) {
             if ($Build."Product Name" -like "*$ProductName*") {
-                Write-Output $Build | Select-Object "Product Name", "Build Number", @{n = "Date"; e = { $Release = $_."Date"; $Release.ToString("yyyy/MM/dd") } }, "KB"
+                Write-Output $Build | Select-Object "Product Name", "Build Number", @{n = "Date"; e = { $Release = $_."Date"; $Release.ToString("yyyy/MM/dd") } }, "KB", "Blog"
                 $found = $true
             }
         }
@@ -73,7 +73,7 @@ function Get-ExchangeProductName {
     param
     (
         [Parameter(Mandatory = $True, Position = 1, ValueFromPipeline = $True)]
-        [System.Version]$BuidNumber
+        [System.Version]$BuildNumber
     )
 
     Begin {
@@ -116,18 +116,23 @@ function Get-ExchangeProductName {
     Process {
         if (-not $SetupDone) { Setup }
 
-        $BuildString = $BuidNumber.Revision + $BuidNumber.Build * 1000 + $BuidNumber.Minor * 10000000 + $BuidNumber.Major * 1000000000 
+        $BuildString = $BuildNumber.Revision + $BuildNumber.Build * 1000 + $BuildNumber.Minor * 10000000 + $BuildNumber.Major * 1000000000 
         $Results = $null
 
         for ($i = 0; $i -le $Builds.Length; $i++) {
             if ($BuildString -lt $Builds[$i]."BuildNumberInt") {
                 if ($i -eq 0) {
-                    Write-Error ($BuidNumber.ToString() + " is too old.")
+                    Write-Error ($BuildNumber.ToString() + " is too old.")
                     break
                 }
                 else {
                     $Results = @($Builds[$i - 1], $Builds[$i])
-                    Write-Warning ($BuidNumber.ToString() + " is greater than " + $Results[0]."Product Name" + " and less than " + $Results[1]."Product Name")
+                    Write-Warning ($BuildNumber.ToString() + " is greater than " + $Results[0]."Product Name" + " and less than " + $Results[1]."Product Name")
+                    
+                    if (Test-SecurityOrInterimUpdate -BaseBuild $Builds[$i - 1]."Build Number" -BuildToBeCompared $BuildNumber) {
+                        Write-Warning ("It seems that " + $BuildNumber.ToString() + " is " + $Builds[$i - 1]."Product Name" + ", and a security update (SU) or an interim update (IU) is installed.")
+                    }
+
                     break
                 }
             }
@@ -138,15 +143,39 @@ function Get-ExchangeProductName {
         }
 
         if ($null -eq $Results) {
-            Write-Warning "Not found."
-            return
+            if (Test-SecurityOrInterimUpdate -BaseBuild $Builds[-1]."Build Number" -BuildToBeCompared $BuildNumber) {
+                $Results = $Builds[-1]
+                Write-Warning ("It seems that " + $BuildNumber.ToString() + " is " + $Builds[-1]."Product Name" + ", and a security update (SU) or an interim update (IU) is installed.")
+            }
+            else {
+                Write-Warning "Not found."
+                return
+            }
         }
-        else {
-            Write-Output $Results | Select-Object "Product Name", "Build Number", @{n = "Date"; e = { $Release = $_."Date"; $Release.ToString("yyyy/MM/dd") } }, "KB"
-        }
+        
+        Write-Output $Results | Select-Object "Product Name", "Build Number", @{n = "Date"; e = { $Release = $_."Date"; $Release.ToString("yyyy/MM/dd") } }, "KB", "Blog"
     }
 
     End { }
+}
+
+function Test-SecurityOrInterimUpdate {
+    [CmdletBinding()]
+    param
+    (
+        [Parameter(Mandatory = $True)]
+        [version]$BaseBuild,
+
+        [Parameter(Mandatory = $True)]
+        [version]$BuildToBeCompared
+    )
+
+    return (
+        ($BaseBuild.Major -eq $BuildToBeCompared.Major) -and 
+        ($BaseBuild.Minor -eq $BuildToBeCompared.Minor) -and 
+        ($BaseBuild.Build -eq $BuildToBeCompared.Build) -and 
+        ($BaseBuild.Revision -lt $BuildToBeCompared.Revision)
+    )
 }
 
 function Import-ExchangeBuildNumberDefinition {
@@ -171,7 +200,7 @@ function Import-ExchangeBuildNumberDefinition {
 
     Process {
         Write-Verbose (CreateLogString ("Loading the definition file from " + $FileName + "."))
-        return Import-Csv $FileName | Select-Object "Product Name", @{n = "Build Number"; e = { [System.Version]$_."Build Number" } }, @{n = "BuildNumberInt"; e = { $Version = [System.Version]$_."Build Number"; $Version.Revision + $Version.Build * 1000 + $Version.Minor * 10000000 + $Version.Major * 1000000000 } }, "KB", @{n = "Date"; e = { Get-Date $_."Date" } }
+        return Import-Csv $FileName | Select-Object "Product Name", @{n = "Build Number"; e = { [System.Version]$_."Build Number" } }, @{n = "BuildNumberInt"; e = { $Version = [System.Version]$_."Build Number"; $Version.Revision + $Version.Build * 1000 + $Version.Minor * 10000000 + $Version.Major * 1000000000 } }, "KB", @{n = "Date"; e = { Get-Date $_."Date" } }, "Blog"
     }
 
     End

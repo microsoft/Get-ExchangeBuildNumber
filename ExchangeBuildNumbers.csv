@@ -1,168 +1,173 @@
-Product Name,Build Number,Date,KB
-Exchange 2007 RTM,8.0.685.25,3/8/2007,
-Exchange 2007 RU1,8.0.708.3,4/17/2007,
-Exchange 2007 RU2,8.0.711.2,5/8/2007,
-Exchange 2007 RU3,8.0.730.1,6/28/2007,
-Exchange 2007 RU4,8.0.744.0,8/23/2007,
-Exchange 2007 RU5,8.0.754.0,10/25/2007,
-Exchange 2007 RU6,8.0.783.2,2/21/2008,
-Exchange 2007 RU7,8.0.813.0,7/8/2008,
-Exchange 2007 SP1 RTM,8.1.240.6,11/29/2007,
-Exchange 2007 SP1 RU1,8.1.263.1,2/28/2008,KB945684
-Exchange 2007 SP1 RU2,8.1.278.2,5/8/2008,KB948016
-Exchange 2007 SP1 RU3,8.1.291.2,7/8/2008,KB949870
-Exchange 2007 SP1 RU4,8.1.311.3,10/7/2008,KB952580
-Exchange 2007 SP1 RU5,8.1.336.1,11/20/2008,KB953467
-Exchange 2007 SP1 RU6,8.1.340.1,2/10/2009,KB959241
-Exchange 2007 SP1 RU7,8.1.359.2,3/18/2009,KB960384
-Exchange 2007 SP1 RU8,8.1.375.2,5/19/2009,KB968012
-Exchange 2007 SP1 RU9,8.1.393.1,7/17/2009,KB970162
-Exchange 2007 SP1 RU10,8.1.436.0,4/9/2010,KB981407
-Exchange 2007 SP2 RTM,8.2.176.2,8/24/2009,
-Exchange 2007 SP2 RU1,8.2.217.3,11/19/2009,KB971534
-Exchange 2007 SP2 RU2,8.2.234.1,1/22/2010,KB972076
-Exchange 2007 SP2 RU3,8.2.247.2,3/17/2010,KB979784
-Exchange 2007 SP2 RU4,8.2.254.0,4/9/2010,KB981383
-Exchange 2007 SP2 RU5,8.2.305.3,12/7/2010,KB2407132
-Exchange 2007 SP3 RTM,8.3.083.6,6/20/2010,
-Exchange 2007 SP3 RU1,8.3.106.2,9/9/2010,KB2279665
-Exchange 2007 SP3 RU2,8.3.137.3,12/10/2010,KB2407025
-Exchange 2007 SP3 RU3,8.3.159.0,3/2/2011,KB2492691
-Exchange 2007 SP3 RU3v2,8.3.159.2,3/30/2011,KB2530488
-Exchange 2007 SP3 RU4,8.3.192.1,7/7/2011,KB2509911
-Exchange 2007 SP3 RU5,8.3.213.1,9/21/2011,KB2602324
-Exchange 2007 SP3 RU6,8.3.245.2,1/25/2012,KB2608656
-Exchange 2007 SP3 RU7,8.3.264.0,4/16/2012,KB2655203
-Exchange 2007 SP3 RU8,8.3.279.3,8/13/2012,KB2734232
-Exchange 2007 SP3 RU8v2,8.3.279.5,10/9/2012,KB2756497
-Exchange 2007 SP3 RU8v3,8.3.279.6,11/13/2012,KB2778154
-Exchange 2007 SP3 RU9,8.3.297.2,12/10/2012,KB2746157
-Exchange 2007 SP3 RU10,8.3.298.3,2/11/2013,KB2788321
-Exchange 2007 SP3 RU11,8.3.327.1,8/13/2013,KB2873746
-Exchange 2007 SP3 RU12,8.3.342.4,12/10/2013,KB2903911
-Exchange 2007 SP3 RU13,8.3.348.1,2/25/2014,KB2917522
-Exchange 2007 SP3 RU14,8.3.379.2,8/26/2014,KB2936861
-Exchange 2007 SP3 RU15,8.3.389.2,12/9/2014,KB2996150
-Exchange 2007 SP3 RU16,8.3.406.0,3/17/2015,KB3030086
-Exchange 2007 SP3 RU17,8.3.417.1,6/16/2015,KB3056710
-Exchange 2007 SP3 RU18,8.3.445.0,12/10/2015,KB3078672
-Exchange 2007 SP3 RU19,8.3.459.0,3/15/2016,KB3141352
-Exchange 2007 SP3 RU21,8.3.485.1,9/12/2016,KB3184711
-Exchange 2007 SP3 RU22,8.3.502.0,12/12/2016,KB3184712
-Exchange 2007 SP3 RU23,8.3.517.0,3/20/2017,KB4011325
-Exchange 2010 RTM,14.0.639.21,11/9/2009,
-Exchange 2010 RU1,14.0.682.1,12/9/2009,KB976573
-Exchange 2010 RU2,14.0.689.0,3/4/2010,KB979611
-Exchange 2010 RU3,14.0.694.0,4/9/2010,KB981401
-Exchange 2010 RU4,14.0.702.1,6/17/2010,KB982639
-Exchange 2010 RU5,14.0.726.0,12/13/2010,KB2407113
-Exchange 2010 SP1 RTM,14.1.218.15,8/24/2010,
-Exchange 2010 SP1 RU1,14.1.255.2,10/4/2010,KB2407028
-Exchange 2010 SP1 RU2,14.1.270.1,12/9/2010,KB2425179
-Exchange 2010 SP1 RU3,14.1.289.3,3/7/2011,KB2492690
-Exchange 2010 SP1 RU3v3,14.1.289.7,4/1/2011,KB2529939
-Exchange 2010 SP1 RU4,14.1.323.1,6/22/2011,KB2509910
-Exchange 2010 SP1 RU4v2,14.1.323.6,7/27/2011,KB2579150
-Exchange 2010 SP1 RU5,14.1.339.1,8/23/2011,KB2582113
-Exchange 2010 SP1 RU6,14.1.355.2,10/27/2011,KB2608646
-Exchange 2010 SP1 RU7,14.1.421.0,8/13/2012,KB2743248
-Exchange 2010 SP1 RU7v2,14.1.421.2,10/9/2012,KB2756496
-Exchange 2010 SP1 RU7v3,14.1.421.3,11/12/2012,KB2778158
-Exchange 2010 SP1 RU8,14.1.438.0,12/10/2012,KB2787763
-Exchange 2010 SP2 RTM,14.2.247.5,12/4/2011,
-Exchange 2010 SP2 RU1,14.2.283.3,2/13/2012,KB2645995
-Exchange 2010 SP2 RU2,14.2.298.4,4/16/2012,KB2661854
-Exchange 2010 SP2 RU3,14.2.309.2,5/29/2012,KB2685289
-Exchange 2010 SP2 RU4,14.2.318.2,8/13/2012,KB2706690
-Exchange 2010 SP2 RU4v2,14.2.318.4,10/9/2012,KB2756485
-Exchange 2010 SP2 RU5,14.2.328.5,11/13/2012,KB2719800
-Exchange 2010 SP2 RU5v2,14.2.328.10,12/10/2012,KB2785908
-Exchange 2010 SP2 RU6,14.2.342.3,2/11/2013,KB2746164
-Exchange 2010 SP2 RU7,14.2.375.0,8/13/2013,KB2874216
-Exchange 2010 SP2 RU8,14.2.390.3,12/10/2013,KB2903903
-Exchange 2010 SP3 RTM,14.3.123.4,2/12/2013,KB2808208
-Exchange 2010 SP3 RU1,14.3.146.0,5/29/2013,KB2803727
-Exchange 2010 SP3 RU2,14.3.158.1,8/13/2013,KB2866475
-Exchange 2010 SP3 RU3,14.3.169.1,11/25/2013,KB2891587
-Exchange 2010 SP3 RU4,14.3.174.1,12/10/2013,KB2905616
-Exchange 2010 SP3 RU5,14.3.181.6,2/25/2014,KB2917508
-Exchange 2010 SP3 RU6,14.3.195.1,5/23/2014,KB2936871
-Exchange 2010 SP3 RU7,14.3.210.2,8/26/2014,KB2961522
-Exchange 2010 SP3 RU8v2,14.3.224.2,12/12/2014,KB2986475
-Exchange 2010 SP3 RU9,14.3.235.1,3/17/2015,KB3030085
-Exchange 2010 SP3 RU10,14.3.248.2,6/16/2015,KB3049853
-Exchange 2010 SP3 RU11,14.3.266.1,9/11/2015,KB3078674
-Exchange 2010 SP3 RU12,14.3.279.2,12/10/2015,KB3096066
-Exchange 2010 SP3 RU13,14.3.294.0,3/15/2016,KB3141339
-Exchange 2010 SP3 RU14,14.3.301.0,6/15/2016,KB3151097
-Exchange 2010 SP3 RU15,14.3.319.2,9/12/2016,KB3184728
-Exchange 2010 SP3 RU16,14.3.339.0,12/12/2016,KB3184730
-Exchange 2010 SP3 RU17,14.3.352.0,3/20/2017,KB4011326
-Exchange 2010 SP3 RU18,14.3.361.1,7/6/2017,KB4018588
-Exchange 2010 SP3 RU19,14.3.382.0,12/17/2017,KB4035162
-Exchange 2010 SP3 RU20,14.3.389.1,03/05/2018,KB4073537
-Exchange 2010 SP3 RU21,14.3.399.2,5/7/2018,KB4091243
-Exchange 2010 SP3 RU22,14.3.411.0,6/12/2018,KB4295699
-Exchange 2010 SP3 RU23,14.3.417.1,8/13/2018,KB4340733
-Exchange 2010 SP3 RU24,14.3.419.0,9/5/2018,KB4458321
-Exchange 2010 SP3 RU25,14.3.435.0,1/8/2019,KB4468742
-Exchange 2010 SP3 RU26,14.3.442.0,2/12/2019,KB4487052
-Exchange 2010 SP3 RU27,14.03.0452.000,4/9/2019,KB4491413
-Exchange 2010 SP3 RU28,14.03.0461.001,6/7/2019,KB4503028
-Exchange 2010 SP3 RU29,14.03.0468.000,7/2/2019,KB4509410
-Exchange 2010 SP3 RU30,14.03.0496.000,2/11/2020,KB4536989
-Exchange 2013 RTM,15.0.516.32,2/03/2013,
-Exchange 2013 CU1,15.0.620.29,4/02/2013,KB2816900
-Exchange 2013 CU2,15.0.712.24,7/09/2013,KB2859928
-Exchange 2013 CU3,15.0.775.38,11/25/2013,KB2892464
-Exchange 2013 SP1,15.0.847.32,2/25/2014,KB2926248
-Exchange 2013 CU5,15.0.913.22,5/27/2014,KB2936880
-Exchange 2013 CU6,15.0.995.29,8/26/2014,KB2961810
-Exchange 2013 CU7,15.0.1044.25,12/09/2014,KB2986485
-Exchange 2013 CU8,15.0.1076.9,3/17/2015,KB3030080
-Exchange 2013 CU9,15.0.1104.5,6/16/2015,KB3049849
-Exchange 2013 CU10,15.0.1130.7,9/14/2015,KB3078678
-Exchange 2013 CU11,15.0.1156.6,12/10/2015,KB3099522
-Exchange 2013 CU12,15.0.1178.4,3/15/2016,KB3108023
-Exchange 2013 CU13,15.0.1210.3,6/20/2016,KB3135743
-Exchange 2013 CU14,15.0.1236.3,9/14/2016,KB3152589
-Exchange 2013 CU15,15.0.1263.5,12/12/2016,KB3197044
-Exchange 2013 CU16,15.0.1293.2,3/20/2017,KB4012112
-Exchange 2013 CU17,15.0.1320.4,6/24/2017,KB4012114
-Exchange 2013 CU18,15.0.1347.2,9/16/2017,KB4022631
-Exchange 2013 CU19,15.0.1365.1,12/17/2017,KB4037224
-Exchange 2013 CU20,15.0.1367.3,3/15/2018,KB4055221
-Exchange 2013 CU21,15.0.1395.4,6/12/2018,KB4099855
-Exchange 2013 CU22,15.0.1473.3,2/12/2019,KB4345836
-Exchange 2013 CU23,15.00.1497.002,6/18/2019,KB4489622
-Exchange 2016 Preview,15.1.225.16,06/22/2015,
-Exchange 2016 RTM,15.1.225.42,9/28/2015,
-Exchange 2016 CU1,15.1.396.30,3/15/2016,KB3134844
-Exchange 2016 CU2,15.1.466.34,6/20/2016,KB3135742
-Exchange 2016 CU3,15.1.544.27,9/14/2016,KB3152589
-Exchange 2016 CU4,15.1.669.32,12/12/2016,KB3177106
-Exchange 2016 CU5,15.1.845.34,3/20/2017,KB4012106
-Exchange 2016 CU6,15.1.1034.26,6/24/2017,KB4012108
-Exchange 2016 CU7,15.1.1261.35,9/16/2017,KB4018115
-Exchange 2016 CU8,15.1.1415.2,12/17/2017,KB4035145
-Exchange 2016 CU9,15.1.1466.3,3/15/2018,KB4055222
-Exchange 2016 CU10,15.1.1531.3,6/12/2018,KB4099852
-Exchange 2016 CU11,15.1.1591.10,10/4/2018,KB4134118
-Exchange 2016 CU12,15.1.1713.5,2/12/2019,KB4471392
-Exchange 2016 CU13,15.01.1779.002,6/18/2019,KB4488406
-Exchange 2016 CU14,15.01.1847.003,9/17/2019,KB4514140
-Exchange 2016 CU15,15.01.1913.005,12/16/2019,KB4522150
-Exchange 2016 CU16,15.01.1979.003,3/17/2020,KB4537678
-Exchange 2016 CU17,15.01.2044.004,6/16/2020,KB4556414
-Exchange 2016 CU18,15.01.2106.002,9/15/2020,KB4571788
-Exchange 2016 CU19,15.01.2176.002,12/15/2020,KB4588884
-Exchange 2019 Preview,15.2.196.0,7/24/2018,
-Exchange 2019 RTM,15.2.221.12,10/22/2018,
-Exchange 2019 CU1,15.2.330.5,2/12/2019,KB4471391
-Exchange 2019 CU2,15.2.397.3,6/18/2019,KB4488401
-Exchange 2019 CU3,15.2.464.5,9/17/2019,KB4514141
-Exchange 2019 CU4,15.2.529.5,12/16/2019,KB4522149
-Exchange 2019 CU5,15.2.595.3,3/17/2020,KB4537677
-Exchange 2019 CU6,15.2.659.4,6/16/2020,KB4556415
-Exchange 2019 CU7,15.2.721.2,9/15/2020,KB4571787
-Exchange 2019 CU8,15.2.792.3,12/15/2020,KB4588885
+Product Name,Build Number,Date,KB,Blog
+Exchange 2007 RTM,8.0.685.25,3/8/2007,,
+Exchange 2007 RU1,8.0.708.3,4/17/2007,,
+Exchange 2007 RU2,8.0.711.2,5/8/2007,,
+Exchange 2007 RU3,8.0.730.1,6/28/2007,,
+Exchange 2007 RU4,8.0.744.0,8/23/2007,,
+Exchange 2007 RU5,8.0.754.0,10/25/2007,,
+Exchange 2007 RU6,8.0.783.2,2/21/2008,,
+Exchange 2007 RU7,8.0.813.0,7/8/2008,,
+Exchange 2007 SP1 RTM,8.1.240.6,11/29/2007,,
+Exchange 2007 SP1 RU1,8.1.263.1,2/28/2008,KB945684,
+Exchange 2007 SP1 RU2,8.1.278.2,5/8/2008,KB948016,
+Exchange 2007 SP1 RU3,8.1.291.2,7/8/2008,KB949870,
+Exchange 2007 SP1 RU4,8.1.311.3,10/7/2008,KB952580,
+Exchange 2007 SP1 RU5,8.1.336.1,11/20/2008,KB953467,
+Exchange 2007 SP1 RU6,8.1.340.1,2/10/2009,KB959241,
+Exchange 2007 SP1 RU7,8.1.359.2,3/18/2009,KB960384,
+Exchange 2007 SP1 RU8,8.1.375.2,5/19/2009,KB968012,
+Exchange 2007 SP1 RU9,8.1.393.1,7/16/2009,KB970162,
+Exchange 2007 SP1 RU10,8.1.436.0,4/13/2010,KB981407,
+Exchange 2007 SP2 RTM,8.2.176.2,8/24/2009,,
+Exchange 2007 SP2 RU1,8.2.217.3,11/19/2009,KB971534,
+Exchange 2007 SP2 RU2,8.2.234.1,1/22/2010,KB972076,
+Exchange 2007 SP2 RU3,8.2.247.2,3/17/2010,KB979784,
+Exchange 2007 SP2 RU4,8.2.254.0,4/9/2010,KB981383,
+Exchange 2007 SP2 RU5,8.2.305.3,12/7/2010,KB2407132,
+Exchange 2007 SP3 RTM,8.3.083.6,6/7/2010,,
+Exchange 2007 SP3 RU1,8.3.106.2,9/9/2010,KB2279665,
+Exchange 2007 SP3 RU2,8.3.137.3,12/10/2010,KB2407025,
+Exchange 2007 SP3 RU3,8.3.159.0,3/2/2011,KB2492691,
+Exchange 2007 SP3 RU3v2,8.3.159.2,3/30/2011,KB2530488,
+Exchange 2007 SP3 RU4,8.3.192.1,5/28/2011,KB2509911,
+Exchange 2007 SP3 RU5,8.3.213.1,9/21/2011,KB2602324,
+Exchange 2007 SP3 RU6,8.3.245.2,1/26/2012,KB2608656,
+Exchange 2007 SP3 RU7,8.3.264.0,4/16/2012,KB2655203,
+Exchange 2007 SP3 RU8,8.3.279.3,8/13/2012,KB2734232,
+Exchange 2007 SP3 RU8v2,8.3.279.5,10/9/2012,KB2756497,
+Exchange 2007 SP3 RU8v3,8.3.279.6,11/13/2012,KB2778154,
+Exchange 2007 SP3 RU9,8.3.297.2,12/10/2012,KB2746157,
+Exchange 2007 SP3 RU10,8.3.298.3,2/11/2013,KB2788321,
+Exchange 2007 SP3 RU11,8.3.327.1,8/13/2013,KB2873746,
+Exchange 2007 SP3 RU12,8.3.342.4,12/9/2013,KB2903911,
+Exchange 2007 SP3 RU13,8.3.348.1,2/24/2014,KB2917522,
+Exchange 2007 SP3 RU14,8.3.379.2,8/26/2014,KB2936861,
+Exchange 2007 SP3 RU15,8.3.389.2,12/9/2014,KB2996150,https://techcommunity.microsoft.com/t5/exchange-team-blog/exchange-releases-december-2014/ba-p/584630
+Exchange 2007 SP3 RU16,8.3.406.0,3/17/2015,KB3030086,https://techcommunity.microsoft.com/t5/exchange-team-blog/new-time-zone-updates-available-for-exchange-server-2007-service/ba-p/611102
+Exchange 2007 SP3 RU17,8.3.417.1,6/17/2015,KB3056710,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-june-2015-exchange-cumulative-update-and-update-rollups/ba-p/603879
+Exchange 2007 SP3 RU18,8.3.445.0,12/10/2015,KB3078672,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-december-2015-quarterly-exchange-updates/ba-p/604618
+Exchange 2007 SP3 RU19,8.3.459.0,3/15/2016,KB3141352,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-march-2016-quarterly-exchange-updates/ba-p/604375
+Exchange 2007 SP3 RU20,8.3.468.0,6/21/2016,KB3151086,
+Exchange 2007 SP3 RU21,8.3.485.1,9/12/2016,KB3184711,
+Exchange 2007 SP3 RU22,8.3.502.0,12/13/2016,KB3184712,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-december-2016-quarterly-exchange-updates/ba-p/606193
+Exchange 2007 SP3 RU23,8.3.517.0,3/21/2017,KB4011325,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-march-2017-quarterly-exchange-updates/ba-p/606533
+Exchange 2010 RTM,14.0.639.21,11/9/2009,,
+Exchange 2010 RU1,14.0.682.1,12/9/2009,KB976573,
+Exchange 2010 RU2,14.0.689.0,3/4/2010,KB979611,
+Exchange 2010 RU3,14.0.694.0,4/13/2010,KB981401,
+Exchange 2010 RU4,14.0.702.1,6/10/2010,KB982639,
+Exchange 2010 RU5,14.0.726.0,12/13/2010,KB2407113,
+Exchange 2010 SP1 RTM,14.1.218.15,8/23/2010,,
+Exchange 2010 SP1 RU1,14.1.255.2,10/4/2010,KB2407028,
+Exchange 2010 SP1 RU2,14.1.270.1,12/9/2010,KB2425179,
+Exchange 2010 SP1 RU3,14.1.289.3,3/7/2011,KB2492690,
+Exchange 2010 SP1 RU3v3,14.1.289.7,4/6/2011,KB2529939,
+Exchange 2010 SP1 RU4,14.1.323.1,6/22/2011,KB2509910,
+Exchange 2010 SP1 RU4v2,14.1.323.6,7/27/2011,KB2579150,
+Exchange 2010 SP1 RU5,14.1.339.1,8/23/2011,KB2582113,
+Exchange 2010 SP1 RU6,14.1.355.2,10/27/2011,KB2608646,
+Exchange 2010 SP1 RU7,14.1.421.0,8/8/2012,KB2743248,
+Exchange 2010 SP1 RU7v2,14.1.421.2,10/10/2012,KB2756496,
+Exchange 2010 SP1 RU7v3,14.1.421.3,11/13/2012,KB2778158,
+Exchange 2010 SP1 RU8,14.1.438.0,12/10/2012,KB2787763,
+Exchange 2010 SP2 RTM,14.2.247.5,12/4/2011,,
+Exchange 2010 SP2 RU1,14.2.283.3,2/13/2012,KB2645995,
+Exchange 2010 SP2 RU2,14.2.298.4,4/16/2012,KB2661854,
+Exchange 2010 SP2 RU3,14.2.309.2,5/29/2012,KB2685289,
+Exchange 2010 SP2 RU4,14.2.318.2,8/13/2012,KB2706690,
+Exchange 2010 SP2 RU4v2,14.2.318.4,10/9/2012,KB2756485,
+Exchange 2010 SP2 RU5,14.2.328.5,11/13/2012,KB2719800,
+Exchange 2010 SP2 RU5v2,14.2.328.10,12/10/2012,KB2785908,
+Exchange 2010 SP2 RU6,14.2.342.3,2/12/2013,KB2746164,
+Exchange 2010 SP2 RU7,14.2.375.0,8/3/2013,KB2874216,
+Exchange 2010 SP2 RU8,14.2.390.3,12/9/2013,KB2903903,
+Exchange 2010 SP3 RTM,14.3.123.4,2/12/2013,KB2808208,
+Exchange 2010 SP3 RU1,14.3.146.0,5/29/2013,KB2803727,
+Exchange 2010 SP3 RU2,14.3.158.1,8/8/2013,KB2866475,
+Exchange 2010 SP3 RU3,14.3.169.1,11/25/2013,KB2891587,
+Exchange 2010 SP3 RU4,14.3.174.1,12/9/2013,KB2905616,
+Exchange 2010 SP3 RU5,14.3.181.6,2/24/2014,KB2917508,
+Exchange 2010 SP3 RU6,14.3.195.1,5/27/2014,KB2936871,
+Exchange 2010 SP3 RU7,14.3.210.2,8/26/2014,KB2961522,
+Exchange 2010 SP3 RU8v2,14.3.224.2,12/12/2014,KB2986475,https://techcommunity.microsoft.com/t5/exchange-team-blog/exchange-releases-december-2014/ba-p/584630
+Exchange 2010 SP3 RU9,14.3.235.1,3/17/2015,KB3030085,https://techcommunity.microsoft.com/t5/exchange-team-blog/announcing-update-rollup-9-for-exchange-server-2010-service-pack/ba-p/611084
+Exchange 2010 SP3 RU10,14.3.248.2,6/17/2015,KB3049853,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-june-2015-exchange-cumulative-update-and-update-rollups/ba-p/603879
+Exchange 2010 SP3 RU11,14.3.266.1,9/15/2015,KB3078674,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-september-2015-quarterly-exchange-updates/ba-p/604159
+Exchange 2010 SP3 RU12,14.3.279.2,12/15/2015,KB3096066,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-december-2015-quarterly-exchange-updates/ba-p/604618
+Exchange 2010 SP3 RU13,14.3.294.0,3/15/2016,KB3141339,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-march-2016-quarterly-exchange-updates/ba-p/604375
+Exchange 2010 SP3 RU14,14.3.301.0,6/21/2016,KB3151097,
+Exchange 2010 SP3 RU15,14.3.319.2,9/20/2016,KB3184728,
+Exchange 2010 SP3 RU16,14.3.339.0,12/13/2016,KB3184730,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-december-2016-quarterly-exchange-updates/ba-p/606193
+Exchange 2010 SP3 RU17,14.3.352.0,3/21/2017,KB4011326,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-march-2017-quarterly-exchange-updates/ba-p/606533
+Exchange 2010 SP3 RU18,14.3.361.1,7/11/2017,KB4018588,
+Exchange 2010 SP3 RU19,14.3.382.0,12/19/2017,KB4035162,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-december-2017-quarterly-exchange-updates/ba-p/607541
+Exchange 2010 SP3 RU20,14.3.389.1,3/5/2018,KB4073537,
+Exchange 2010 SP3 RU21,14.3.399.2,5/7/2018,KB4091243,
+Exchange 2010 SP3 RU22,14.3.411.0,6/19/2018,KB4295699,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-june-2018-quarterly-exchange-updates/ba-p/607964
+Exchange 2010 SP3 RU23,14.3.417.1,8/13/2018,KB4340733,
+Exchange 2010 SP3 RU24,14.3.419.0,9/5/2018,KB4458321,
+Exchange 2010 SP3 RU25,14.3.435.0,1/8/2019,KB4468742,
+Exchange 2010 SP3 RU26,14.3.442.0,2/12/2019,KB4487052,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-february-2019-quarterly-exchange-updates/ba-p/609061
+Exchange 2010 SP3 RU27,14.03.0452.000,4/9/2019,KB4491413,
+Exchange 2010 SP3 RU28,14.03.0461.001,6/7/2019,KB4503028,
+Exchange 2010 SP3 RU29,14.03.0468.000,7/9/2019,KB4509410,
+Exchange 2010 SP3 RU30,14.03.0496.000,2/11/2020,KB4536989,
+Exchange 2010 SP3 RU31,14.03.0509.000,12/1/2020,KB4593467,
+Exchange 2010 SP3 RU32,14.03.0513.000,3/2/2021,KB5000978,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-march-2021-exchange-server-security-updates/ba-p/2175901
+Exchange 2013 RTM,15.0.516.32,12/3/2012,,
+Exchange 2013 CU1,15.0.620.29,4/2/2013,KB2816900,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-exchange-server-2013-rtm-cumulative-update-1/ba-p/594576
+Exchange 2013 CU2,15.0.712.24,7/9/2013,KB2859928,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-exchange-server-2013-rtm-cumulative-update-2/ba-p/593058
+Exchange 2013 CU3,15.0.775.38,11/25/2013,KB2892464,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-exchange-server-2013-cumulative-update-3/ba-p/589560
+Exchange 2013 SP1,15.0.847.32,2/25/2014,KB2926248,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-exchange-server-2013-service-pack-1/ba-p/587548
+Exchange 2013 CU5,15.0.913.22,5/27/2014,KB2936880,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-exchange-server-2013-cumulative-update-5/ba-p/586186
+Exchange 2013 CU6,15.0.995.29,8/26/2014,KB2961810,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-cumulative-update-6-for-exchange-server-2013/ba-p/585495
+Exchange 2013 CU7,15.0.1044.25,12/09/2014,KB2986485,https://techcommunity.microsoft.com/t5/exchange-team-blog/exchange-releases-december-2014/ba-p/584630
+Exchange 2013 CU8,15.0.1076.9,3/17/2015,KB3030080,https://techcommunity.microsoft.com/t5/exchange-team-blog/announcing-cumulative-update-8-for-exchange-server-2013/ba-p/611020/page/2
+Exchange 2013 CU9,15.0.1104.5,6/17/2015,KB3049849,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-june-2015-exchange-cumulative-update-and-update-rollups/ba-p/603879
+Exchange 2013 CU10,15.0.1130.7,9/15/2015,KB3078678,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-september-2015-quarterly-exchange-updates/ba-p/604159
+Exchange 2013 CU11,15.0.1156.6,12/15/2015,KB3099522,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-december-2015-quarterly-exchange-updates/ba-p/604618
+Exchange 2013 CU12,15.0.1178.4,3/15/2016,KB3108023,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-march-2016-quarterly-exchange-updates/ba-p/604375
+Exchange 2013 CU13,15.0.1210.3,6/21/2016,KB3135743,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-june-2016-quarterly-exchange-updates/ba-p/604877
+Exchange 2013 CU14,15.0.1236.3,9/20/2016,KB3152589,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-september-2016-quarterly-exchange-updates/ba-p/605402
+Exchange 2013 CU15,15.0.1263.5,12/13/2016,KB3197044,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-december-2016-quarterly-exchange-updates/ba-p/606193
+Exchange 2013 CU16,15.0.1293.2,3/21/2017,KB4012112,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-march-2017-quarterly-exchange-updates/ba-p/606533
+Exchange 2013 CU17,15.0.1320.4,6/27/2017,KB4012114,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-june-2017-quarterly-exchange-updates/ba-p/607004/page/2
+Exchange 2013 CU18,15.0.1347.2,9/19/2017,KB4022631,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-september-2017-quarterly-exchange-updates/ba-p/607155
+Exchange 2013 CU19,15.0.1365.1,12/19/2017,KB4037224,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-december-2017-quarterly-exchange-updates/ba-p/607541
+Exchange 2013 CU20,15.0.1367.3,3/20/2018,KB4055221,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-march-2018-quarterly-exchange-updates/ba-p/607750
+Exchange 2013 CU21,15.0.1395.4,6/19/2018,KB4099855,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-june-2018-quarterly-exchange-updates/ba-p/607964
+Exchange 2013 CU22,15.0.1473.3,2/12/2019,KB4345836,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-february-2019-quarterly-exchange-updates/ba-p/609061
+Exchange 2013 CU23,15.00.1497.002,6/18/2019,KB4489622,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-june-2019-quarterly-exchange-updates/ba-p/698398
+Exchange 2016 Preview,15.1.225.16,7/22/2015,,
+Exchange 2016 RTM,15.1.225.42,10/1/2015,,
+Exchange 2016 CU1,15.1.396.30,3/15/2016,KB3134844,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-march-2016-quarterly-exchange-updates/ba-p/604375
+Exchange 2016 CU2,15.1.466.34,6/21/2016,KB3135742,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-june-2016-quarterly-exchange-updates/ba-p/604877
+Exchange 2016 CU3,15.1.544.27,9/20/2016,KB3152589,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-september-2016-quarterly-exchange-updates/ba-p/605402
+Exchange 2016 CU4,15.1.669.32,12/13/2016,KB3177106,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-december-2016-quarterly-exchange-updates/ba-p/606193
+Exchange 2016 CU5,15.1.845.34,3/21/2017,KB4012106,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-march-2017-quarterly-exchange-updates/ba-p/606533
+Exchange 2016 CU6,15.1.1034.26,6/27/2017,KB4012108,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-june-2017-quarterly-exchange-updates/ba-p/607004/page/2
+Exchange 2016 CU7,15.1.1261.35,9/19/2017,KB4018115,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-september-2017-quarterly-exchange-updates/ba-p/607155
+Exchange 2016 CU8,15.1.1415.2,12/19/2017,KB4035145,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-december-2017-quarterly-exchange-updates/ba-p/607541
+Exchange 2016 CU9,15.1.1466.3,3/20/2018,KB4055222,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-march-2018-quarterly-exchange-updates/ba-p/607750
+Exchange 2016 CU10,15.1.1531.3,6/19/2018,KB4099852,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-june-2018-quarterly-exchange-updates/ba-p/607964
+Exchange 2016 CU11,15.1.1591.10,10/16/2018,KB4134118,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-october-2018-quarterly-exchange-updates/ba-p/608455
+Exchange 2016 CU12,15.1.1713.5,2/12/2019,KB4471392,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-february-2019-quarterly-exchange-updates/ba-p/609061
+Exchange 2016 CU13,15.01.1779.002,6/18/2019,KB4488406,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-june-2019-quarterly-exchange-updates/ba-p/698398
+Exchange 2016 CU14,15.01.1847.003,9/17/2019,KB4514140,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-september-2019-quarterly-exchange-updates/ba-p/853699
+Exchange 2016 CU15,15.01.1913.005,12/17/2019,KB4522150,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-december-2019-quarterly-exchange-updates/ba-p/1068848
+Exchange 2016 CU16,15.01.1979.003,3/17/2020,KB4537678,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-march-2020-quarterly-exchange-updates/ba-p/1231563
+Exchange 2016 CU17,15.01.2044.004,6/16/2020,KB4556414,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-june-2020-quarterly-exchange-updates/ba-p/1458993
+Exchange 2016 CU18,15.01.2106.002,9/15/2020,KB4571788,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-september-2020-quarterly-exchange-updates/ba-p/1649072
+Exchange 2016 CU19,15.01.2176.002,12/15/2020,KB4588884,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-december-2020-quarterly-exchange-updates/ba-p/1976527
+Exchange 2016 CU20,15.01.2242.004,3/16/2021,KB4602569,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-march-2021-quarterly-exchange-updates/ba-p/2205283
+Exchange 2019 Preview,15.2.196.0,7/24/2018,,
+Exchange 2019 RTM,15.2.221.12,10/22/2018,,
+Exchange 2019 CU1,15.2.330.5,2/12/2019,KB4471391,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-february-2019-quarterly-exchange-updates/ba-p/609061
+Exchange 2019 CU2,15.2.397.3,6/18/2019,KB4488401,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-june-2019-quarterly-exchange-updates/ba-p/698398
+Exchange 2019 CU3,15.2.464.5,9/17/2019,KB4514141,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-september-2019-quarterly-exchange-updates/ba-p/853699
+Exchange 2019 CU4,15.2.529.5,12/17/2019,KB4522149,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-december-2019-quarterly-exchange-updates/ba-p/1068848
+Exchange 2019 CU5,15.2.595.3,3/17/2020,KB4537677,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-march-2020-quarterly-exchange-updates/ba-p/1231563
+Exchange 2019 CU6,15.2.659.4,6/16/2020,KB4556415,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-june-2020-quarterly-exchange-updates/ba-p/1458993
+Exchange 2019 CU7,15.2.721.2,9/15/2020,KB4571787,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-september-2020-quarterly-exchange-updates/ba-p/1649072
+Exchange 2019 CU8,15.2.792.3,12/15/2020,KB4588885,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-december-2020-quarterly-exchange-updates/ba-p/1976527
+Exchange 2019 CU9,15.2.858.5,3/16/2021,KB4602570,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-march-2021-quarterly-exchange-updates/ba-p/2205283
