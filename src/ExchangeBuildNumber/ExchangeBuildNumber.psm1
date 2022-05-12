@@ -271,7 +271,7 @@ function Test-ExchangeBuildNumberDefinition {
         $DaysFromLastRelease = $Today - $LastReleaseDate
         Write-Verbose (CreateLogString ("Last release was " + $DaysFromLastRelease.Days + " days ago."))
 
-        if ($DaysFromLastRelease.Days -ge 100) {
+        if ($DaysFromLastRelease.Days -ge 300) {
             
             $Caption = "Confirm"
             $Message = "Current definition file is too old. Do you want to update?"
