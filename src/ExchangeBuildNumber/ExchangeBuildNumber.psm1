@@ -200,7 +200,7 @@ function Import-ExchangeBuildNumberDefinition {
 
     Process {
         Write-Verbose (CreateLogString ("Loading the definition file from " + $FileName + "."))
-        return Import-Csv $FileName | Select-Object "Product Name", @{n = "Build Number"; e = { [System.Version]$_."Build Number" } }, @{n = "BuildNumberInt"; e = { $Version = [System.Version]$_."Build Number"; $Version.Revision + $Version.Build * 1000 + $Version.Minor * 10000000 + $Version.Major * 1000000000 } }, "KB", @{n = "Date"; e = { Get-Date $_."Date" } }, "Blog"
+        return Import-Csv $FileName | Select-Object "Product Name", @{n = "Build Number"; e = { [System.Version]$_."Build Number" } }, @{n = "BuildNumberInt"; e = { $Version = [System.Version]$_."Build Number"; $Version.Revision + $Version.Build * 1000 + $Version.Minor * 10000000 + $Version.Major * 1000000000 } }, "KB", @{n = "Date"; e = { [DateTime]::Parse($_."Date", [CultureInfo]::CreateSpecificCulture('en-US')) } }, "Blog"
     }
 
     End
