@@ -157,7 +157,7 @@ Exchange 2013 CU23 Jan23SU,15.0.1497.45,1/10/2023,KB5022188,https://techcommunit
 Exchange 2013 CU23 Feb23SU,15.0.1497.47,02/14/2023,KB5023038,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-february-2023-exchange-server-security-updates/ba-p/3741058
 Exchange 2013 CU23 Mar23SU,15.0.1497.48,03/14/2023,KB5024296,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-march-2023-exchange-server-security-updates/ba-p/3764224
 Exchange 2016 Preview,15.1.225.16,7/22/2015,,
-Exchange 2016 RTM,15.1.225.42,10/1/2015,,
+Exchange 2016 RTM,15.1.225.42,10/1/2015,,https://techcommunity.microsoft.com/t5/exchange-team-blog/exchange-server-2016-forged-in-the-cloud-now-available-on/ba-p/604085
 Exchange 2016 CU1,15.1.396.30,3/15/2016,KB3134844,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-march-2016-quarterly-exchange-updates/ba-p/604375
 Exchange 2016 CU2,15.1.466.34,6/21/2016,KB3135742,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-june-2016-quarterly-exchange-updates/ba-p/604877
 Exchange 2016 CU3,15.1.544.27,9/20/2016,KB3152589,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-september-2016-quarterly-exchange-updates/ba-p/605402
@@ -224,7 +224,7 @@ Exchange 2016 CU23 Aug23SUv2,15.1.2507.32,8/15/2023,KB5030524,https://techcommun
 Exchange 2016 CU23 Oct23SU,15.1.2507.34,10/10/2023,KB5030877,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-october-2023-exchange-server-security-updates/ba-p/3950647
 Exchange 2016 CU23 Nov23SU,15.1.2507.35,11/14/2023,KB5032147,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-november-2023-exchange-server-security-updates/ba-p/3980209
 Exchange 2019 Preview,15.2.196.0,7/24/2018,,
-Exchange 2019 RTM,15.2.221.12,10/22/2018,,
+Exchange 2019 RTM,15.2.221.12,10/22/2018,,https://techcommunity.microsoft.com/t5/exchange-team-blog/exchange-server-2019-now-available/ba-p/608610
 Exchange 2019 RTM Mar21SU,15.2.221.18,3/2/2021,KB5000871,https://techcommunity.microsoft.com/t5/exchange-team-blog/march-2021-exchange-server-security-updates-for-older-cumulative/ba-p/2192020
 Exchange 2019 CU1,15.2.330.5,2/12/2019,KB4471391,https://techcommunity.microsoft.com/t5/exchange-team-blog/released-february-2019-quarterly-exchange-updates/ba-p/609061
 Exchange 2019 CU1 Mar21SU,15.2.330.11,3/2/2021,KB5000871,https://techcommunity.microsoft.com/t5/exchange-team-blog/march-2021-exchange-server-security-updates-for-older-cumulative/ba-p/2192020
