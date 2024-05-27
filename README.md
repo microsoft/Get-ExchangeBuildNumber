@@ -2,6 +2,8 @@
 
 You can search build numbers of Exchange Server. Not only that, but you can also get the relevant KB numbers and blog posts.
 
+**If you're already using ExchangeBuildNumber PowerShell Module, please update to 1.2.1 or higher to download the latest definition file.**
+
 ```
 PS C:\> Get-ExchangeBuildNumber "2019 CU9"
 
@@ -15,7 +17,7 @@ Blog         : https://techcommunity.microsoft.com/t5/exchange-team-blog/release
 
 ## Installing ExchangeBuildNumber PowerShell Module
 
-The module is published on the PowerShell Gallery.
+You can install this module from the [PowerShell Gallery](https://www.powershellgallery.com/packages/ExchangeBuildNumber/) using `Install-Module` CmdLet.
 
 ```powershell
 Install-Module ExchangeBuildNumber
