@@ -234,8 +234,9 @@ function Update-ExchangeBuildNumberDefinition {
         }
 	
         $FileName = $Dest + "`\ExchangeBuildNumbers.csv"
-        Write-Verbose (CreateLogString "Downloading the definition file.")
-        Invoke-WebRequest -Uri "https://exchangebuildnumbersa.blob.core.windows.net/exchangebuildnumberblob/ExchangeBuildNumbers.csv" -OutFile $FileName
+        $DefinitionUrl = "https://aka.ms/ExchangeBuildNumberDefinition"
+        Write-Verbose (CreateLogString "Downloading the definition file from $DefinitionUrl to $FileName .")
+        Invoke-WebRequest -Uri $DefinitionUrl -OutFile $FileName
     }
 
     End
