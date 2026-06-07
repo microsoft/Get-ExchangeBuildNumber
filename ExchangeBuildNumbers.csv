@@ -230,7 +230,7 @@ Exchange 2016 CU23 Nov24SUv2,15.1.2507.44,11/27/2024,KB5049233,https://techcommu
 Exchange 2016 CU23 Apr25HU,15.1.2507.55,4/18/2025,KB5050674,https://techcommunity.microsoft.com/blog/exchange/released-april-2025-exchange-server-hotfix-updates/4402471
 Exchange 2016 CU23 May25HU,15.1.2507.57,5/29/2025,KB5057653,https://techcommunity.microsoft.com/blog/exchange/released-may-2025-exchange-server-hotfix-updates/4418786
 Exchange 2016 CU23 Aug25SU,15.1.2507.58,8/12/2025,KB5063223,https://techcommunity.microsoft.com/blog/exchange/released-august-2025-exchange-server-security-updates/4441596
-Exchange 2016 CU23 Sep25HU,15.1.2507.59,9/8/2025,KB5066370,
+Exchange 2016 CU23 Sep25HU,15.1.2507.59,9/8/2025,KB5066370,https://techcommunity.microsoft.com/blog/exchange/released-september-2025-exchange-server-hotfix-updates/4448721
 Exchange 2016 CU23 Oct25SU,15.1.2507.61,10/14/2025,KB5066369,https://techcommunity.microsoft.com/blog/exchange/released-october-2025-exchange-server-security-updates/4461276
 Exchange 2016 CU23 Dec25SU,15.1.2507.63,12/9/2025,KB5071873,https://techcommunity.microsoft.com/blog/exchange/released-december-2025-exchange-server-security-updates/4474949
 Exchange 2016 CU23 Feb26SU,15.1.2507.66,2/10/2026,KB5074995,https://techcommunity.microsoft.com/blog/exchange/released-february-2026-exchange-server-security-updates/4494076
@@ -308,7 +308,7 @@ Exchange 2019 CU14 Nov24SUv2,15.2.1544.14,11/27/2024,KB5049233,https://techcommu
 Exchange 2019 CU14 Apr25HU,15.2.1544.25,4/18/2025,KB5050674,https://techcommunity.microsoft.com/blog/exchange/released-april-2025-exchange-server-hotfix-updates/4402471
 Exchange 2019 CU14 May25HU,15.2.1544.27,5/29/2025,KB5057653,https://techcommunity.microsoft.com/blog/exchange/released-may-2025-exchange-server-hotfix-updates/4418786
 Exchange 2019 CU14 Aug25SU,15.2.1544.33,8/12/2025,KB5063222,https://techcommunity.microsoft.com/blog/exchange/released-august-2025-exchange-server-security-updates/4441596
-Exchange 2019 CU14 Sep25HU,15.2.1544.34,9/8/2025,KB5066371,
+Exchange 2019 CU14 Sep25HU,15.2.1544.34,9/8/2025,KB5066371,https://techcommunity.microsoft.com/blog/exchange/released-september-2025-exchange-server-hotfix-updates/4448721
 Exchange 2019 CU14 Oct25SU,15.2.1544.36,10/14/2025,KB5066368,https://techcommunity.microsoft.com/blog/exchange/released-october-2025-exchange-server-security-updates/4461276
 Exchange 2019 CU14 Dec25SU,15.2.1544.37,12/9/2025,KB5071874,https://techcommunity.microsoft.com/blog/exchange/released-december-2025-exchange-server-security-updates/4474949
 Exchange 2019 CU14 Feb26SU,15.2.1544.39,2/10/2026,KB5074994,https://techcommunity.microsoft.com/blog/exchange/released-february-2026-exchange-server-security-updates/4494076
@@ -316,13 +316,13 @@ Exchange 2019 CU15,15.2.1748.10,2/10/2025,KB5042461,https://techcommunity.micros
 Exchange 2019 CU15 Apr25HU,15.2.1748.24,4/18/2025,KB5050674,https://techcommunity.microsoft.com/blog/exchange/released-april-2025-exchange-server-hotfix-updates/4402471
 Exchange 2019 CU15 May25HU,15.2.1748.26,5/29/2025,KB5057653,https://techcommunity.microsoft.com/blog/exchange/released-may-2025-exchange-server-hotfix-updates/4418786
 Exchange 2019 CU15 Aug25SU,15.2.1748.36,8/12/2025,KB5063221,https://techcommunity.microsoft.com/blog/exchange/released-august-2025-exchange-server-security-updates/4441596
-Exchange 2019 CU15 Sep25HU,15.2.1748.37,9/8/2025,KB5066372,
+Exchange 2019 CU15 Sep25HU,15.2.1748.37,9/8/2025,KB5066372,https://techcommunity.microsoft.com/blog/exchange/released-september-2025-exchange-server-hotfix-updates/4448721
 Exchange 2019 CU15 Oct25SU,15.2.1748.39,10/14/2025,KB5066367,https://techcommunity.microsoft.com/blog/exchange/released-october-2025-exchange-server-security-updates/4461276
 Exchange 2019 CU15 Dec25SU,15.2.1748.42,12/9/2025,KB5071875,https://techcommunity.microsoft.com/blog/exchange/released-december-2025-exchange-server-security-updates/4474949
 Exchange 2019 CU15 Feb26SU,15.2.1748.43,2/10/2026,KB5074993,https://techcommunity.microsoft.com/blog/exchange/released-february-2026-exchange-server-security-updates/4494076
 Exchange SE RTM,15.2.2562.17,7/1/2025,KB5047155,https://techcommunity.microsoft.com/blog/exchange/exchange-server-subscription-edition-se-is-now-available/4424924
 Exchange SE RTM Aug25SU,15.2.2562.20,8/12/2025,KB5063224,https://techcommunity.microsoft.com/blog/exchange/released-august-2025-exchange-server-security-updates/4441596
-Exchange SE RTM Sep25HU,15.2.2562.27,9/8/2025,KB5066373,
+Exchange SE RTM Sep25HU,15.2.2562.27,9/8/2025,KB5066373,https://techcommunity.microsoft.com/blog/exchange/released-september-2025-exchange-server-hotfix-updates/4448721
 Exchange SE RTM Oct25SU,15.2.2562.29,10/14/2025,KB5066366,https://techcommunity.microsoft.com/blog/exchange/released-october-2025-exchange-server-security-updates/4461276
 Exchange SE RTM Dec25SU,15.2.2562.35,12/9/2025,KB5071876,https://techcommunity.microsoft.com/blog/exchange/released-december-2025-exchange-server-security-updates/4474949
 Exchange SE RTM Feb26SU,15.2.2562.37,2/10/2026,KB5074992,https://techcommunity.microsoft.com/blog/exchange/released-february-2026-exchange-server-security-updates/4494076
